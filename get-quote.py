@@ -8,7 +8,10 @@ def principal():
 
   last = len(quotes) - 1
   rnd = random.randint(0, last)
-  print(quotes[rnd])
-
+  x = 0
+  while(x <= 1):
+      print(quotes[rnd])
+      x += 1
+      rnd = random.randint(0, last)
 if __name__== "__main__":
   principal()
